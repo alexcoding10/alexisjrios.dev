@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@import "tailwindcss-animated";
+
+@theme{
+    --color-secondary : #7125E3;
+    --color-white-transparent-50 : #FFFFFF50;
+    --color-green-pastel: #9CEBA3;
+    --color-violet-pastel: #A8A2FF;
+    --color-violet:#9D82FF;
+    --color-violet-dark:#141235;
+
+
+  --font-default: 'K2D', sans-serif;
+  --font-title: 'Chela One', cursive;
+
+  --animate-spin-x :
+}
