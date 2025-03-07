@@ -7,7 +7,6 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
-    site: 'https://alexcoding10.github.io',
-    base: 'portfolio',
+    base:'alexisjrios.dev'
   }
 });
