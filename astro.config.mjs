@@ -7,6 +7,6 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
-    base:'alexisjrios.dev'
+    base:'/alexisjrios.dev/'
   }
 });
