@@ -12,14 +12,24 @@
       <h1 class="font-title text-4xl md:text-6xl">Hey, soy Alexis</h1>
       <h3 class="text-xl md:text-2xl">Desarrollador Full-Stack</h3>
       <ul class="list-none flex gap-2 justify-center md:justify-start">
-        <li class="bg-white/50 p-1.5 rounded-xl text-zinc-800 text-sm md:text-base">
+        <li
+          class="bg-white/50 p-1.5 rounded-xl text-zinc-800 text-sm md:text-base"
+        >
           Disponible para trabajar 🟢
         </li>
-        <li class="bg-white/50 p-1.5 rounded-xl text-zinc-800 text-sm md:text-base">España 🇪🇸</li>
-        <li class="bg-white/50 p-1.5 rounded-xl text-zinc-800 text-sm md:text-base">Contacto 📱</li>
+        <li
+          class="bg-white/50 p-1.5 rounded-xl text-zinc-800 text-sm md:text-base"
+        >
+          España 🇪🇸
+        </li>
+        <li
+          class="bg-white/50 p-1.5 rounded-xl text-zinc-800 text-sm md:text-base"
+        >
+          Contacto 📱
+        </li>
       </ul>
     </div>
-    
+
     <img
       src="icons/php-and-js.svg"
       class="w-16 h-16 md:w-20 md:h-20 animate-bounce md:block hidden"
@@ -29,7 +39,7 @@
   <!--Segundo contendor -->
   <div class="grid grid-cols-4 grid-row-6 md:grid-rows-3 gap-6 mt-6">
     <div
-      class="md:w-3xl md:h-80 bg-white col-span-4 md:row-span-1 row-span-2 rounded-3xl drop-shadow-[0_4px_10px_rgba(0,0,0,0.5)] flex flex-col md:flex-row"
+      class="md:w-3xl md:h-80 bg-white overflow-hidden col-span-4 md:row-span-1 row-span-2 rounded-3xl drop-shadow-[0_4px_10px_rgba(0,0,0,0.5)] flex flex-col md:flex-row"
     >
       <!--Texto -->
       <div class="md:w-1/2 px-8 py-4 justify-center flex flex-col">
@@ -55,9 +65,7 @@
         <p class="text-violet-pastel">{"}"}</p>
       </div>
       <!-- Imagen -->
-      <div
-        class="md:w-1/2 overflow-hidden rounded-2xl col-span-4 md:col-span-2"
-      >
+      <div class="md:w-1/2 rounded-2xl col-span-4 md:col-span-2">
         <img
           class="rounded-xl relative top-1/3 left-1/3 hover:left-1/4 hover:top-1/4 transition-all ease-in-out duration-500"
           src="images/vsc1.webp"
@@ -81,7 +89,7 @@
             (back-end) y React (front-end).
           </p>
           <p>
-            Mejoré diseño, rendimiento de consultas y escalabilidad , reduciendo
+            Mejoré el diseño, rendimiento de consultas y escalabilidad , reduciendo
             tiempos de respuesta al optimizar bases de dato.
           </p>
         </div>
@@ -120,14 +128,12 @@
           class="flex flex-col gap-3 text-sm relative -left-6 text-gray-text"
         >
           <p>
-            Diseñé soluciones IoT para la detección de fugas de agua, desde la
-            decodificación de payloads de sensores hasta la triangulación zonas
-            afectadas.
+            Diseñé soluciones IoT para la detección de fugas de agua,
+            decodificando sensores y triangulando zonas afectadas.
           </p>
           <p>
-            Mejorado la eficiencia operativa y reducción de pérdidas mediante la
-            automatización de alertas y la geolocalización precisa de
-            incidencias.
+            Conseguí una gran reducción de pérdidas mediante la automatización de alertas y la
+            geolocalización precisa de incidencias.
           </p>
         </div>
         <div class="flex gap-5 justify-end mt-3 mr-5">
@@ -169,12 +175,12 @@
   });
 
   // Evento mouseenter: Mover la imagen cuando el mouse entra
-  vsc1?.addEventListener('mouseenter', () => {
+  vsc1?.addEventListener("mouseenter", () => {
     moveImage(25, 25, vsc1); // Mueve la imagen a top: 25%, left: 25%
   });
 
   // Evento mouseleave: Restaurar la posición original cuando el mouse sale
-  vsc1?.addEventListener('mouseleave', () => {
+  vsc1?.addEventListener("mouseleave", () => {
     moveImage(initVsc1.top, initVsc1.left, vsc1); // Restaura la posición original
   });
 
